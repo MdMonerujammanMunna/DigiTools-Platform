@@ -2,6 +2,8 @@
 import './App.css'
 import Nav from './component/Navigation Bar/Nav'
 import HeroBanner from './component/Hero Banner/HeroBanner'
+import Star from './component/Star/Star'
+import DigitalTool from './component/DigitalTool/DigitalTool'
 import { use, useState } from 'react'
 
 const FeathData = fetch("/Data.json").then(res => res.json())
@@ -12,6 +14,8 @@ function App() {
     <>
       <Nav SelectCard={SelectCard}></Nav>
       <HeroBanner></HeroBanner>
+      <Star></Star>
+      <DigitalTool PromisesData={PromisesData} SelectCard={SelectCard} setSelectCard={setSelectCard}></DigitalTool>
     </>
   )
 }
