@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI assistance and beautiful templates",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "200+ premium templates",
+      "AI content suggestions",
+      "ATS optimization",
+      "Export to PDF & Word",
+      "Cover letter builder"
+    ],
+    "icon": "https://i.ibb.co.com/zWTSmSHW/writing.png"
+  },
+  {
+    "id": 2,
+    "name": "Job Tracker Premium",
+    "description": "Track all your job applications, follow-ups and interview schedules in one place",
+    "price": 9,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "Popular",
+    "features": [
+      "Unlimited applications",
+      "Interview calendar sync",
+      "Status tracking",
+      "Follow-up reminders",
+      "Application analytics"
+    ],
+    "icon": "https://i.ibb.co.com/RGgZVQKB/media.png"
+  },
+  {
+    "id": 3,
+    "name": "Career Growth Bundle",
+    "description": "Complete career toolkit: Resume + Cover Letter + LinkedIn Optimization",
+    "price": 79,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "AI Resume Builder",
+      "AI Cover Letter Generator",
+      "LinkedIn Profile Optimizer",
+      "Personal website builder",
+      "Lifetime updates"
+    ],
+    "icon": "https://i.ibb.co.com/BHVmjCKj/camera.png"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Premium Booster",
+    "description": "Get noticed by recruiters with an optimized LinkedIn profile",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Profile score analysis",
+      "AI headline & summary",
+      "Keyword optimization",
+      "Experience bullet enhancer",
+      "Monthly profile audit"
+    ],
+    "icon": "https://i.ibb.co.com/m54sncyy/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Ace",
+    "description": "Master your interviews with AI-powered mock interviews and feedback",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "Popular",
+    "features": [
+      "Unlimited mock interviews",
+      "Behavioral question practice",
+      "Real-time AI feedback",
+      "Industry-specific questions",
+      "Performance analytics"
+    ],
+    "icon": "https://i.ibb.co.com/7xL7mCPq/design-tool.png"
+  },
+  {
+    "id": 6,
+    "name": "Salary Negotiation Coach",
+    "description": "Know your worth and negotiate your next salary confidently",
+    "price": 39,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Market salary data",
+      "Negotiation scripts",
+      "Counter offer strategies",
+      "Value proposition builder",
+      "Email templates"
+    ],
+    "icon": " https://i.ibb.co.com/Z6VX5bvf/operation.png"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Launchpad",
+    "description": "Everything you need to start and grow your freelance career",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "Popular",
+    "features": [
+      "Proposal templates",
+      "Client contract generator",
+      "Invoice & payment tracker",
+      "Portfolio builder",
+      "Pricing calculator"
+    ],
+    "icon": "https://i.ibb.co.com/p6XXkGcb/woman.png"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Mastery",
+    "description": "Lifetime access to all career tools + new features forever",
+    "price": 199,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "All 7 products included",
+      "Priority AI access",
+      "Exclusive templates",
+      "1-on-1 career coaching session",
+      "Lifetime updates & new tools"
+    ],
+    "icon": "https://i.ibb.co.com/S7v8XVNs/rocket.png"
+  }
+]
