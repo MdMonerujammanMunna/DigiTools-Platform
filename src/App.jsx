@@ -6,6 +6,7 @@ import Star from './component/Star/Star'
 import DigitalTool from './component/DigitalTool/DigitalTool'
 import Steps from './component/Steps/Steps'
 import Simple from './component/Simple prices/Simple'
+import Workflow from './component/Workflow/Workflow'
 import { use, useState } from 'react'
 
 const FeathData = fetch("/Data.json").then(res => res.json())
@@ -18,8 +19,9 @@ function App() {
       <HeroBanner></HeroBanner>
       <Star></Star>
       <DigitalTool PromisesData={PromisesData} SelectCard={SelectCard} setSelectCard={setSelectCard}></DigitalTool>
-       <Steps></Steps>
-         <Simple></Simple>
+      <Steps></Steps>
+      <Simple></Simple>
+      <Workflow />
     </>
   )
 }
