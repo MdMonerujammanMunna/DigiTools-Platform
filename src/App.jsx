@@ -10,10 +10,12 @@ import Workflow from './component/Workflow/Workflow'
 import Footer from './component/Footer/Footer'
 import { use, useState } from 'react'
 
-const FeathData = fetch("/Data.json").then(res => res.json())
+const FeathData = fetch("/Data.json")
+  .then(res => res.json())
 function App() {
   const PromisesData = use(FeathData)
   const [SelectCard, setSelectCard] = useState([])
+  console.log(SelectCard)
   return (
     <>
       <Nav SelectCard={SelectCard}></Nav>
@@ -23,7 +25,7 @@ function App() {
       <Steps></Steps>
       <Simple></Simple>
       <Workflow />
-       <Footer></Footer>
+      <Footer></Footer>
     </>
   )
 }
