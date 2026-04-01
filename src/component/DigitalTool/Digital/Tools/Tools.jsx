@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Tools = ({ TotalValue, setTotalValue, SingleData, setSelectCard, SelectCard }) => {
     const [ClickIT, setClickIT] = useState(false)
     const ClickHandaler = () => {
         setClickIT(true)
-
         if (SelectCard.includes(SingleData)) {
+            toast.error(`${SingleData.name} card already added`)
             return
         }
+        toast.success(`${SingleData.name} Successfully added to your cart!`)
         setTotalValue(TotalValue + SingleData.price)
         setSelectCard([...SelectCard, SingleData])
     }

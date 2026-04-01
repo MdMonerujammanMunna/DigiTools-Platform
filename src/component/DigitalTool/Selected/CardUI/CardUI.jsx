@@ -1,10 +1,12 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const CardUI = ({ setTotalValue, TotalValue, SelectCard, SelectData, setSelectCard }) => {
     const RemoveTheCard = (SelectData) => {
         const fillterSelectCard = SelectCard.filter(item => item.name != SelectData.name)
         setSelectCard(fillterSelectCard)
         setTotalValue(TotalValue - SelectData.price)
+        toast.error(`${SelectData.name} remove successfully`)
     }
     return (
         <>

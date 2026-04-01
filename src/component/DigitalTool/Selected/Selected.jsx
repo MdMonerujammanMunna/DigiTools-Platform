@@ -1,9 +1,12 @@
 import React from 'react';
 import CardUI from './CardUI/CardUI';
 import { LuShoppingCart } from "react-icons/lu";
+import { toast } from 'react-toastify';
 const Selected = ({ setTotalValue, TotalValue, SelectCard, setSelectCard }) => {
     const HandalePayment = () => {
         setSelectCard([])
+        toast.success(`$${TotalValue} payment successful`)
+        setTotalValue(0)
     }
     return (
 
